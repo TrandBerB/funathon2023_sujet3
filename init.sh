@@ -1,7 +1,7 @@
 #!/bin/bash
 LANGUAGE=$1
 # Clone course repository
-REPO_URL="https://github.com/InseeFrLab/funathon2023_sujet3.git"
+REPO_URL="https://github.com/TrandBerB/funathon2023_sujet3.git"
 CLONE_DIR="/home/onyxia/work/funathon-sujet3"
 git clone --depth 1 $REPO_URL $CLONE_DIR
 cd $CLONE_DIR
